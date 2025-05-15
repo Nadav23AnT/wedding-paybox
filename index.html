@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // החלף כאן את הקישורים שלך
+    const link1 = "https://www.google.co.il/"; // החשבון שלך
+    const link2 = "https://en.wikipedia.org/wiki/Yahoo_Finance"; // החשבון של בת הזוג
+
+    // 50% סיכוי לכל אחד
+    const random = Math.random(); // מספר בין 0 ל־1
+    const redirectLink = (random < 0.5) ? link1 : link2;
+
+    // הפניה
+    window.location.href = redirectLink;
+  </script>
+</head>
+<body>
+  <p>מועבר לקבלת מתנה...</p>
+</body>
+</html>
